@@ -2,13 +2,11 @@
 // Writes one text to /output/entry.txt (1-280 Unicode code points).
 import { mkdirSync, writeFileSync } from 'node:fs';
 
-const text = `The stars come out one by one,
-and the dark grows deep between them.
-The desert below lies still.
-Nothing here hurries.
-The light has been travelling for years
-to fall on this quiet ground,
-and the ground does not ask it to stay.
+const text = `The well was dug before this house had a name.
+A pebble rests at the bottom.
+The water above it has not moved for a hundred years.
+It is dark down there, and quiet.
+The water holds it, and asks nothing back.
 `;
 
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
